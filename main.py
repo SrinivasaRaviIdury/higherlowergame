@@ -34,7 +34,6 @@ while flag:
     user_choice = input("Guess Who has more followers type 'A' or 'B' : ").lower()
     #check who has more followers a or b compare a and b followers
     high_followers = compare_users(a,b)
-    print(high_followers,user_choice)
     if high_followers == 'b':
         a=b
     #if user guesses correct change b to a 
